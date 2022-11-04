@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILOS INDEX STYLESCAPS CSS  NAVS */
+
+h1 {
+
+    padding: 50px;
+    font-size: 80px;
+    font-family: 'Exo', sans-serif;
+    background-color: rgb(129, 202, 231);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.barra {
+
+    background-color: rgb(129, 202, 231);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.barra li{
+
+    padding: 15px;
+    font-size: 25px;
+}
+
+.barra li a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.box-1 {
+
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.box-2 {
+
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.box-3 {
+
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.box-4 {
+    
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.box-5 {
+    
+    margin: 15px;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.inicio {
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 30px;
+
+
+}
+
+
+.inicio div img{
+
+    width: 420px;
+    height: 500px;
+}
+
+    /* FOOTER INDEX */
+
+.pies-grid{
+    width: 100%;
+    display: grid;
+    background-color: rgb(81, 76, 112);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "pie pie-2 none pie-5"
+    "pie-4 pie-3 none pie-6";
+
+
+}
+
+.pies-grid div img{
+
+    width: 50px;
+
+}
+
+
+.pie{
+ grid-area: pie;
+
+}
+
+.pie-2{
+grid-area: pie-2;
+
+}
+
+
+.pie-3{
+grid-area: pie-3;
+font-family: 'Mulish', sans-serif;
+}
+
+
+.pie-4{
+grid-area: pie-4;
+font-family: 'Mulish', sans-serif;
+}
+
+
+.pie-5{
+grid-area: pie-5;
+}
+
+
+
+
+.pie-6{
+grid-area: pie-6;
+
+}
+
+
+/* ESTILOS NOSOTROS STYLES CAPS CSS*/
+
+
+
+
+.historia-grid{
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "imagenes-box subtitulos-nosotros ."
+    ". parrafo-1 .";
+     
+}
+
+.imagen-1{
+    grid-area: imagen-1;
+
+}
+
+.subtitulo-1{
+    grid-area: subtitulo-1;
+}
+
+.parrafo-1{
+    grid-area: parrafo-3;
+}
+
+
+/* ESTILOS CATALOGO STYLES CAPS CSS*/
+
+
+
+.cuerpo-grid{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: 
+    "gorra-1 gorra-2 gorra-3"
+    "none none none"
+    "none none none"
+    "gorra-4 gorra-5 gorra-6"
+    "none none none"
+    "none none none"
+    ;
+
+}
+
+.gorra-1{
+
+    grid-area: gorra-1;
+
+}
+
+.gorra-2{
+    
+    grid-area: gorra-2;
+
+}
+
+.gorra-3{
+
+    grid-area: gorra-3;
+
+}
+
+.gorra-4{
+
+    grid-area: gorra-4;
+
+}
+
+.gorra-5{
+
+    grid-area: gorra-5;
+
+}
+
+.gorra-6{
+
+    grid-area: gorra-6;
+
+}
+
+
+/* ESTILOS POLITICAS STYLESCAPS */
+
+
+
+
+
+.politicas-grid{
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    "imagenes-box subtitulos-box";
+
+    column-gap: 100px;
+    margin: 40px;
+
+
+}
+
+.imagenes-box{
+
+    grid-area: imagenes-box;
+
+}
+
+.subtitulos-politicas{
+    
+    grid-area: subtitulos-box;
+
+
+}
+
+.contacto-grid{
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    "none email-estilos";
+
+    column-gap: 100px;
+    margin: 40px;
+
+
+}
+
+
+.email-estilos{
+
+    background-color: blueviolet;
+    grid-area: email-estilos
+    ;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
